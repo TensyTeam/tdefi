@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>HederaMask</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div class="popup_title">HederaMask</div>
+    <div id="popup_auth">
+        <button class="popup-btn" id="popup_auth_btn">Log in to your Hedera Profile</button>
+        <a class="popup-btn-link" href="https://portal.hedera.com/register" target="_blank">Create your Hedera Account</a>
+    </div>
+    <div id="popup_phrase">
+        <textarea type="text" placeholder="Pass phrase" id="pass_phrase"></textarea>
+        <div class="group_samples">
+            <div class="popup_sample" id="popup_sample_organiser">Sample organiser</div>
+            <div class="popup_sample" id="popup_sample_visitor">Sample visitor</div>
+        </div>
+        <div class="popup_subtitle" id="popup_sample_error"></div>
+        <button class="popup-btn" id="popup_phrase_btn">Enter</button>
+    </div>
+    <div id="popup_account">
+        <div class="popup_subtitle">
+            <span>Account id:</span>
+            <span id="popup_id"></span>
+        </div>
+        <div class="popup_subtitle">
+            <span>Balance:</span>
+            <span id="popup_balance"></span>
+        </div>
+        <button class="popup-btn" id="popup_account_btn">Exit</button>
+    </div>
+    <div id="popup_submit">
+        <div class="popup_subtitle" id="popup_submit_title"></div>
+        <div class="popup_subtitle" id="popup_submit_count"></div>
+        <div class="popup_subtitle" id="popup_submit_priceTicket"></div>
+        <div class="popup_subtitle" id="popup_submit_token"></div>
+        <div class="popup_subtitle" id="popup_submit_from"></div>
+        <div class="popup_subtitle" id="popup_submit_to"></div>
+        <div class="popup_subtitle" id="popup_submit_price"></div>
+        <button class="popup-btn" id="popup_submit_confirm_btn">Confirm</button>
+        <button class="popup-btn popup-btn-reject" id="popup_submit_reject_btn">Reject</button>
+    </div>
+</body>
+
+</html>
