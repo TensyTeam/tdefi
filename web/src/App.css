@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    color: #fff;
+    background: #222;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0 30px;
+    letter-spacing: 3px;
+    padding: 0 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 0 50px;
+    letter-spacing: 3px;
+    padding: 0 10px;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    outline: 0px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    background: linear-gradient(135deg, #2d84eb 0%, #2d84eb 0%, #8259ef 100%);
+    border-radius: 25px;
+    padding: 14px 28px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 15px;
+}
+
+.btn_disabled {
+    opacity: 0.3 !important;
+    cursor: default;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.events_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.event_block {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+.event_title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.event_subtitle {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.event_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.event_bottom .subtitle {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 16px;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.event_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin: 40px auto;
+    max-width: 400px;
+}
+
+.event_form .subtitle {
+    margin: 0;
+    font-size: 16px;
+}
+
+input,
+textarea {
+    border: 0;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px;
+    border-radius: 4px;
+    background: #222;
+    outline: 0;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff50;
+}
+
+:-moz-placeholder {
+    color: #ffffff50;
+}
+
+::-moz-placeholder {
+    color: #ffffff50;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff50;
+}
+
+#qr-code img {
+    height: 200px;
+    width: 200px;
+}
