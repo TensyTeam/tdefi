@@ -1,5 +1,10 @@
 # Solution for TDeFi hackathon
-## Team: SmartTickets
+
+[Our presentation](https://github.com/TensyTeam/tdefi/blob/main/TDEFI.pdf)
+
+[Our video-demo](https://youtu.be/hqfMcGzrnkM)
+
+## Team: TensyTeam
 <table>
     <tbody>
         <tr>
